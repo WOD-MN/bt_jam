@@ -51,9 +51,9 @@ void two() {
 
   ///CHANNEL WITH 2 SPACING HOPPING
   if (flag == 0) {
-    i += 2;
+    i += 3;
   } else {
-    i -= 2;
+    i -= 3;
   }
 
   if ((i > 79) && (flag == 0)) {
