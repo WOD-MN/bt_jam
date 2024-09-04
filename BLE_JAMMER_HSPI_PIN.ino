@@ -36,8 +36,8 @@ void initHP() {
     radio.setAutoAck(false);
     radio.stopListening();
     radio.setRetries(0, 0);
-    radio.setPayloadSize(5);   ////SET VALUE ON RF24.CPP
-    radio.setAddressWidth(3);  ////SET VALUE ON RF24.CPP
+    radio.setPayloadSize(16);   ////SET VALUE ON RF24.CPP
+    radio.setAddressWidth(5);  ////SET VALUE ON RF24.CPP
     radio.setPALevel(RF24_PA_MAX, true);
     radio.setDataRate(RF24_2MBPS);
     radio.setCRCLength(RF24_CRC_DISABLED);
