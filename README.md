@@ -2,7 +2,7 @@
 
 ---
 
-![🚀 BLE Jammer](https://via.placeholder.com/800x200?text=BLE+Jammer+ESP32+NRF24)
+![🚀 BLE Jammer]
 
 ---
 
@@ -87,7 +87,7 @@ This project is an **educational-only** BLE jammer that disrupts Bluetooth Low E
 
 ## 🖥️ OLED Interface Example
 ```
-BLE JAMMER WT24
+BLE JAMMER 
 ...............
 EducationalOnly
 ```
