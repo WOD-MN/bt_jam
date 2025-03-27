@@ -46,7 +46,7 @@ This project is an **educational-only** BLE jammer that disrupts Bluetooth Low E
 |         | MISO     | 12        |           |
 |         | MOSI     | 13        |           |
 | VSPI    | CE       | 4         |           |
-|         | CS       | 2         |           |
+|         | CS       | 5         |           |
 |         | SCK      | 18        |           |
 |         | MISO     | 19        |           |
 |         | MOSI     | 23        |           |
