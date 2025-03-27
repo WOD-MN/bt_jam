@@ -21,11 +21,11 @@ SPIClass *sp = nullptr;
 SPIClass *hp = nullptr;
 
 RF24 radio(26, 15, 16000000);   //NFR24-1 HSPI CAN SET SPI SPEED TO 16000000 BY DEFAULT ITS 10000000
-RF24 radio1(4, 2, 16000000);  //NRF24-2 VSPI CAN SET SPI SPEED TO 16000000 BY DEFAULT ITS 10000000
+RF24 radio1(4, 5, 16000000);  //NRF24-2 VSPI CAN SET SPI SPEED TO 16000000 BY DEFAULT ITS 10000000
 
 
 //NRF24-1 HSPI=SCK = 14, MISO = 12, MOSI = 13, CS = 15 , CE = 26
-//NRF24-2 VSPI=SCK = 18, MISO =19, MOSI = 23 ,CS =2 ,CE = 4
+//NRF24-2 VSPI=SCK = 18, MISO = 19, MOSI = 23 ,CS = 5 , CE = 4
 
 unsigned int flag = 0;   //HSPI// Flag variable to keep track of direction
 unsigned int flagv = 0;  //VSPI// Flag variable to keep track of direction
