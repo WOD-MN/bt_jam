@@ -45,7 +45,7 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 U8G2_FOR_ADAFRUIT_GFX u8g2_for_adafruit_gfx;
 
 // LED
-#define LED_PIN 16
+#define LED_PIN 15
 // Buttons
 #define UP_BUTTON_PIN 14
 #define DOWN_BUTTON_PIN 12
