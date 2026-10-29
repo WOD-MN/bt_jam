@@ -106,7 +106,7 @@ void initRadios() {
     radio.setDataRate(RF24_2MBPS);
     radio.setCRCLength(RF24_CRC_DISABLED);
     radio.printPrettyDetails();
-    radio.startConstCarrier(RF24_PA_MAX, 45);
+    radio.startConstCarrier(RF24_PA_MAX, 40);
   } else {
     Serial.println("Radio 1 Failed to Start");
   }
